@@ -4,7 +4,7 @@ Android application for task sharing
 <img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/logo.png?raw=true" style="width: 30%">
 </p>
 
-## The theme of the site and the logic of work
+## The theme of the app and the logic of work
 TeamWise is an application for sharing tasks in a team between its members. Each of the participants has a specific position and tasks.
 A team is usually a team that works within a task, project, or organization. Every team must have a leader.
 
@@ -42,3 +42,7 @@ Only three statuses
 - Mission accomplished
 
 In the settings, the user can change information about himself, the theme and language.
+
+## Development
+
+All code you can see in src folder. The Firebase service was used to create the application. I used it for distribution, database storage and user data.
