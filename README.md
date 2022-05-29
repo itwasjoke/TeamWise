@@ -1,7 +1,7 @@
 # TeamWise
 Android application for task sharing
 <p align="center">
-<img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/logo.png?raw=true" style="width: 60%">
+<img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/logo.png?raw=true" style="width: 30%">
 </p>
 
 ## The theme of the site and the logic of work
