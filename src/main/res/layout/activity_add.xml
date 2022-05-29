@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add7"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/Theme.Do_together"
+    tools:context=".ActivityAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="222.4dp"
+                    app:srcCompat="@drawable/ic_newtask" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="25dp">
+
+                        <EditText
+                            android:id="@+id/impName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints=""
+                            android:background="@color/white"
+                            android:backgroundTint="@android:color/transparent"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:hint="@string/tintNAME"
+                            android:inputType="textCapSentences"
+                            android:maxLength="60"
+                            android:maxLines="1"
+                            android:padding="9dp"
+                            android:textColorHint="@color/add4" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="25dp">
+
+                        <EditText
+                            android:id="@+id/impDes"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:autofillHints=""
+                            android:background="@color/white"
+                            android:backgroundTint="@android:color/transparent"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:foregroundGravity="center"
+                            android:gravity="start"
+                            android:hint="@string/tintDes"
+                            android:inputType="textMultiLine|textCapSentences"
+                            android:maxLength="3000"
+                            android:maxLines="10"
+                            android:padding="9dp"
+                            android:textColorHint="@color/add4" />
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="3dp">
+
+                        <Button
+                            android:id="@+id/btnDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="@string/tintDate"
+                            android:textColor="@color/add1"
+                            app:backgroundTint="@color/add5"
+                            app:cornerRadius="20dp" />
+
+                        <TextView
+                            android:id="@+id/txtDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="2dp"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/add4"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/tintType"
+                        android:textColor="@color/add4"
+                        android:textSize="18sp"
+                        android:visibility="visible" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="35dp"
+                        android:visibility="visible"
+                        app:cardCornerRadius="30dp">
+
+                        <Spinner
+                            android:id="@+id/spinType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:dropDownWidth="wrap_content"
+                            android:padding="8dp"
+                            android:spinnerMode="dropdown"
+                            android:visibility="visible" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/tintType2"
+                        android:textColor="@color/add4"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="35dp"
+                        app:cardCornerRadius="30dp">
+
+                        <Spinner
+                            android:id="@+id/spinPeo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:dropDownWidth="wrap_content"
+                            android:padding="8dp"
+                            android:spinnerMode="dropdown" />
+                    </androidx.cardview.widget.CardView>
+
+                    <Button
+                        android:id="@+id/btnAdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="@string/Radd"
+                        android:textColor="@color/add1"
+                        app:backgroundTint="@color/add5"
+                        app:cornerRadius="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

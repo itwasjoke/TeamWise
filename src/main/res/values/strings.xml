@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">TeamWise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DO TOGETHER</string>
+    <string name="nav_header_subtitle">Your tasks are always at hand!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Sort</string>
+    <string name="delete">Task deleted</string>
+    <string name="delete1">Delete</string>
+
+    <string name="user1">Make admin</string>
+    <string name="user2">Demote</string>
+
+    <string name="acc1">Account</string>
+    <string name="acc2">Name</string>
+    <string name="acc3">About myself</string>
+    <string name="acc4">Settings</string>
+    <string name="acc5">Theme</string>
+    <string name="acc6">Language</string>
+    <string name="acc7">Post</string>
+
+    <string-array name="theme">
+        <item>Select theme</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>As in the system</item>
+    </string-array>
+    <string-array name="lang">
+        <item>Select language</item>
+        <item>Russian</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="inv1">Invitation copied</string>
+    <string name="inv2">I invite you to the TeamWise team! When you enter, enter the team"'"s login: </string>
+
+    <string name="login1">Login and password are incorrect</string>
+    <string name="login2">The fields are empty</string>
+    <string name="login3">Registration is successful</string>
+    <string name="login4">Error</string>
+    <string name="login5">The fields are inserted incorrectly</string>
+    <string name="login6">Data are incorrect</string>
+    <string name="login7">Leader</string>
+
+    <string name="more1">Deadline:&#160;</string>
+    <string name="more2">From:&#160;</string>
+    <string name="more3">To:&#160;</string>
+
+    <string name="dia1">Sort</string>
+    <string name="dia3">Add</string>
+    <string name="dia2">Cancel</string>
+
+    <string name="addN">Task title not selected</string>
+
+    <string name="help">Help</string>
+    <string name="menu_home">My tasks</string>
+    <string name="menu_gallery">Team</string>
+    <string name="menu_slideshow">Types of tasks</string>
+    <string name="typeTeam">Posts</string>
+    <string name="Team">Members</string>
+
+    <string name="sort1">By type</string>
+    <string name="sort2">By status</string>
+    <string name="sort3">By tasks</string>
+    <string name="sortClose">Close</string>
+
+    <string name="noneType">Anyone</string>
+
+    <string-array name="sortArr1">
+        <item>Anyone</item>
+        <item>Unread</item>
+        <item>Read</item>
+        <item>In the process</item>
+        <item>Done</item>
+    </string-array>
+
+    <string name="notes">Notes</string>
+    <string name="recei">Received</string>
+    <string name="sent">Sent</string>
+
+
+    <string name="add">Create a task</string>
+    <string name="Radd">Add</string>
+    <string name="tintNAME">Task name</string>
+    <string name="tintDONE">Attach result</string>
+    <string name="tintTIME1"></string>
+    <string name="tintDes">Detailed description</string>
+    <string name="email">Check your email</string>
+    <string name="tintDate">Date and time:</string>
+    <string name="tintTime">Timing:</string>
+    <string name="tintType">Type of task</string>
+    <string name="tintType2">Performers</string>
+    <string name="none">what</string>
+    <string name="DONE">Hand over</string>
+    <string name="admin1">Admin</string>
+    <string name="admin2">Member</string>
+
+    <string name="open">I want to go to an existing team</string>
+    <string name="status1">Awaiting execution</string>
+    <string name="status2">In the process</string>
+    <string name="status3">Done</string>
+
+    <string name="noTask">No new tasks</string>
+
+    <string name="type">No type</string>
+
+    <string name="name">Email</string>
+    <string name="nameUser1">First name</string>
+    <string name="nameUser2">Second name</string>
+    <string name="idName">Name of team</string>
+    <string name="open1">Login to TeamWise</string>
+    <string name="password">Password</string>
+    <string name="sign">Login</string>
+    <string name="reg">Register</string>
+    <string name="reg2"><u>Registration</u></string>
+    <string name="reg1">Still don"'"t have an account?</string>
+
+    <string name="plus">+</string>
+    <string name="addd">New element</string>
+    <string name="addd2">Adding</string>
+    <string name="description">…</string>
+
+    <string name="team1">Name</string>
+    <string name="team2">Description</string>
+    <string name="team3">Add post</string>
+    <string name="team4">Create team</string>
+    <string name="team5">Team building</string>
+    <string name="team6">Add type of task</string>
+    <string name="team7">Team login</string>
+    <string name="team8">Select a post</string>
+    <string name="team9">Copy invitation</string>
+    <string name="exit">Exit</string>
+
+</resources>

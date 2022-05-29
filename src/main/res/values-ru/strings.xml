@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">TeamWise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DO TOGETHER</string>
+    <string name="nav_header_subtitle">Ваши задачи всегда под рукой!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_profile">Сортировать</string>
+    <string name="delete">Задача удалена</string>
+    <string name="delete1">Удалить</string>
+
+    <string name="acc1">Аккаунт</string>
+    <string name="acc2">Имя</string>
+    <string name="acc3">О себе</string>
+    <string name="acc4">Настройки</string>
+    <string name="acc5">Тема</string>
+    <string name="acc6">Язык</string>
+    <string name="acc7">Должность</string>
+
+    <string-array name="theme">
+        <item>Выбрать тему</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+        <item>Как в системе</item>
+    </string-array>
+    <string-array name="lang">
+        <item>Выбрать язык</item>
+        <item>Русский</item>
+        <item>Английский</item>
+    </string-array>
+
+    <string name="user1">Сделать администратором</string>
+    <string name="user2">Разжаловать</string>
+
+    <string name="inv1">Приглашение скопировано</string>
+    <string name="inv2">Приглашаю в коллектив TeamWise! При входе введи логин коллектива: </string>
+
+    <string name="login1">Логин и пароль введены неверно</string>
+    <string name="login2">Поля пусты</string>
+    <string name="login3">Регестрация прошла успешно!</string>
+    <string name="login4">Что-то пошло не так</string>
+    <string name="login5">Поля заполнены неверно</string>
+    <string name="login6">Данные введены неверно</string>
+    <string name="login7">Руководитель</string>
+
+    <string name="dia1">Сортировать</string>
+    <string name="dia3">Добавить</string>
+    <string name="dia2">Отмена</string>
+
+    <string name="more1">Срок сдачи:&#160;</string>
+    <string name="more2">От:&#160;</string>
+    <string name="more3">Для:&#160;</string>
+
+    <string name="addN">Заголовок задачи не выбран</string>
+
+    <string name="noneType">Любые</string>
+    <string name="type">Без типа</string>
+
+    <string name="help">Помощь</string>
+    <string name="menu_home">Мои задачи</string>
+    <string name="menu_gallery">Коллектив</string>
+    <string name="menu_slideshow">Типы задач</string>
+    <string name="typeTeam">Должности</string>
+    <string name="Team">Участники</string>
+
+    <string name="sort1">По типу</string>
+    <string name="sort2">По статусу</string>
+    <string name="sort3">По задачам</string>
+    <string name="sortClose">Закрыть</string>
+
+    <string-array name="sortArr1">
+        <item>Любые</item>
+        <item>Не прочитано</item>
+        <item>Прочитано</item>
+        <item>В процессе</item>
+        <item>Выполнено</item>
+    </string-array>
+        <string name="notes">Заметки</string>
+        <string name="recei">Полученные</string>
+        <string name="sent">Отправленные</string>
+
+    <string name="add">Создание задачи</string>
+    <string name="Radd">Добавить</string>
+    <string name="tintNAME">Название задачи</string>
+    <string name="tintDONE">Прикрепить результат</string>
+    <string name="tintTIME1"></string>
+    <string name="tintDes">Подробное описание</string>
+    <string name="email">Проверьте электронную почту</string>
+    <string name="tintDate">Дата и время:</string>
+    <string name="tintTime">Выбор времени:</string>
+    <string name="tintType">Тип задачи</string>
+    <string name="tintType2">Исполнители</string>
+    <string name="none">what</string>
+    <string name="DONE">Сдать</string>
+    <string name="admin1">Админ</string>
+    <string name="admin2">Участник</string>
+
+    <string name="open">Хочу зайти в существующий коллектив</string>
+    <string name="status1">Ждет выполнения</string>
+    <string name="status2">В процессе</string>
+    <string name="status3">Выполнено</string>
+
+    <string name="noTask">Нет новых задач</string>
+
+    <string name="name">Email</string>
+    <string name="nameUser1">Имя</string>
+    <string name="nameUser2">Фамилия</string>
+    <string name="idName">Название коллектива</string>
+    <string name="open1">Вход в TeamWise</string>
+    <string name="password">Пароль</string>
+    <string name="sign">Войти</string>
+    <string name="reg">Зарегестрироваться</string>
+    <string name="reg2"><u>Регистрация</u></string>
+    <string name="reg1">Все еще нет аккаунта?</string>
+
+    <string name="plus">+</string>
+    <string name="addd">Новый элемент</string>
+    <string name="addd2">Добавление</string>
+    <string name="description">…</string>
+
+
+    <string name="team1">Название</string>
+    <string name="team2">Описание</string>
+    <string name="team3">Добавить должность</string>
+    <string name="team4">Создать коллектив</string>
+    <string name="team5">Создание коллектива</string>
+    <string name="team6">Добавить тип задачи</string>
+    <string name="team7">Логин коллектива</string>
+    <string name="team8">Выбрать должность</string>
+    <string name="team9">Скопировать приглашение</string>
+    <string name="exit">Выход</string>
+
+</resources>

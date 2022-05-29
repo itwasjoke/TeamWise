@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="35dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="15dp"
+        android:text="@string/addd2"
+        android:textColor="@color/add5"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:cardPreventCornerOverlap="false">
+
+        <EditText
+            android:id="@+id/newElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="@string/addd"
+            android:inputType="text|textCapSentences"
+            android:maxLength="40"
+            android:padding="9dp"
+            android:textColorHint="@color/add3" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

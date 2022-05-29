@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add7"
+    android:orientation="vertical"
+    tools:context=".ActivityMore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/add7"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <EditText
+                        android:id="@+id/nameM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="top"
+                        android:hint="@string/tintNAME"
+                        android:inputType="textMultiLine|textPersonName"
+                        android:padding="9dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <EditText
+                        android:id="@+id/descM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="top"
+                        android:hint="@string/tintDes"
+                        android:inputType="textMultiLine|textPersonName"
+                        android:minLines="10"
+                        android:padding="9dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <EditText
+                        android:id="@+id/result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="start|top"
+                        android:hint="@string/tintDONE"
+                        android:inputType="textMultiLine"
+                        android:maxLines="7"
+                        android:minHeight="70dp"
+                        android:padding="9dp"
+                        android:textColor="@color/add5"
+                        android:textColorHint="@color/add6" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:cardBackgroundColor="@color/status0text"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:id="@+id/statusLin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@color/status0"
+                        android:orientation="horizontal"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/statusImg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            app:srcCompat="@drawable/ic_status0" />
+
+                        <TextView
+                            android:id="@+id/statusText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="sans-serif-light"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="@string/status1"
+                            android:textColor="@color/status0text"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/dateM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="9dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/toM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="9dp"
+                    android:text="TextView"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/FromM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="9dp"
+                    android:text="TextView"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
