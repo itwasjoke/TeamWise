@@ -1,5 +1,8 @@
 # TeamWise
 Android application for task sharing
+<p align="center">
+<img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/logo.png?raw=true" style="width: 60%">
+</p>
 
 ## The theme of the site and the logic of work
 TeamWise is an application for sharing tasks in a team between its members. Each of the participants has a specific position and tasks.
