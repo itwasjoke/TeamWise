@@ -28,16 +28,17 @@ The administrator, in turn, can see all the tasks, change the lists of the team.
 <p align="center">
 <img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/screenshot1.jpg?raw=true" style="width: 30%">
  </p>
- <p align="center">
-<img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/screenshot2.jpg?raw=true" style="width: 30%">
-</p>
 
 The first will show those that were sent to you. Tasks submitted by you will be displayed in the second tab. When creating a new task, the user specifies a title, description, deadline, task type, and recipient. If you do not specify anyone in the recipient column, the task will go to the third tab as its own task. It is displayed only for you. Tasks in it are some kind of reminders.
 
+<p align="center">
+<img src="https://github.com/itwasjoke/TeamWise-android/blob/main/screenshots/screenshot2.jpg?raw=true" style="width: 30%">
+</p>
+
 Each task has a status indicator. It denotes the process of the participant's work with it.
 Only three statuses
-Task waiting to be completed
-Task in progress
-Mission accomplished
+- Task waiting to be completed
+- Task in progress
+- Mission accomplished
 
 In the settings, the user can change information about himself, the theme and language.
