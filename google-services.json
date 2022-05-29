@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752900878867",
+    "firebase_url": "https://teamwork-f531a-default-rtdb.firebaseio.com",
+    "project_id": "teamwork-f531a",
+    "storage_bucket": "teamwork-f531a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752900878867:android:c12ac5319ba2ced52585e6",
+        "android_client_info": {
+          "package_name": "com.example.do_together"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752900878867-m38uu557jhsgc04unu4tl7im25bikrbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Bjd43PnuYTAGKA3RhJhQYfYHwhngaR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752900878867-m38uu557jhsgc04unu4tl7im25bikrbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
